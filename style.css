@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(33, 33, 33);
+}
+.container{
+    background-color: rgb(64, 63, 63);
+    font-family:fantasy;
+    font-size: 18px;
+    height: 340px;
+    width: 200px;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.view{
+    width: 100%;
+    display: flex;
+    background-color: rgb(48, 47, 47);
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-radius: 1rem;
+    z-index: 99;
+    position:sticky;
+}
+.view input{
+    width: 90%;
+    border: none;
+    height: 40px;
+    border-radius: 1rem;
+    background-color: white;
+    text-align: right;
+    font-size: 1rem;
+    font-family:fantasy;
+}
+.view input:focus{
+    outline: 2px solid darkgoldenrod;
+    color: darkgoldenrod;
+}
+
+
+.calc{
+    display: flex;
+    height: 90%;
+    background-color: black;
+    border-radius: 1rem;
+    transform: translatey(-10%);
+    padding-top: 30px;
+}
+.num{
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    width: 270px;
+    margin-top: 10px;
+    
+}
+.num button{
+    background-color: rgb(185, 139, 22);
+    border: none;
+    padding:  12px;
+    border-radius: 50%;
+    margin: 9px;
+    cursor: pointer;
+}
+.opt{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    transform: translatey(-7%);
+    height: 110%;
+    border-radius: 1rem;
+    background-color: rgb(21, 21, 21);
+    padding-top: 40px;
+}
+.opt button{
+    background-color: darkgoldenrod;
+    border: none;
+    padding:  13px;
+    border-radius: 50%;
+    margin: 6px;
+    cursor: pointer;
+}
